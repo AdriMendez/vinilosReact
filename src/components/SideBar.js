@@ -4,6 +4,7 @@ import ContentWrapper from './ContentWrapper';
 import GenresInDb from './GenresInDb';
 import LastMovieInDb from './LastMovieInDb';
 import AllProducts from './AllProducts';
+import AllUsers from './AllUsers';
 import ContentRowMovies from './ContentRowMovies';
 import SearchMovies from './SearchMovies';
 import NotFound from './NotFound';
@@ -38,14 +39,7 @@ function SideBar() {
                 {/*<!-- Heading -->*/}
                 <div className="sidebar-heading">Actions</div>
 
-                {/*<!-- Nav Item - Pages -->*/}
-                <li className="nav-item">
-                    <Link className="nav-link" to="/GenresInDb">
-                        <i className="fas fa-fw fa-folder"></i>
-                        <span>Albums</span>
-                    </Link>
-                </li>
-
+                
                 <li className="nav-item">
                     <Link className="nav-link" to="/AllProducts">
                         <i className="fas fa-shopping-cart"></i>
@@ -55,7 +49,7 @@ function SideBar() {
 
                 {/*<!-- Nav Item - Charts -->*/}
                 <li className="nav-item">
-                    <Link className="nav-link" to="/LastMovieInDb">
+                    <Link className="nav-link" to="/AllUsers">
                         <i className="fas fa-fw fa-chart-area"></i>
                         <span>Usuarios</span></Link>
                 </li>
@@ -63,7 +57,7 @@ function SideBar() {
 
                 {/*<!-- Nav Item - Charts -->*/}
                 <li className="nav-item">
-                    <Link className="nav-link" to="/LastMovieInDb">
+                    <Link className="nav-link" to="/GenresInDb">
                         <i className="fas fa-fw fa-chart-area"></i>
                         <span>Géneros</span></Link>
                 </li>
@@ -118,6 +112,9 @@ function SideBar() {
                 </Route>
                 <Route path="/ContentRowMovies">
                     <ContentRowMovies />
+                </Route>
+                <Route path="/AllUsers">
+                    <AllUsers />
                 </Route>
                 <Route path="/SearchMovies">
                     <SearchMovies />

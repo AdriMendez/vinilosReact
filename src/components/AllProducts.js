@@ -15,7 +15,7 @@ class AllProducts extends Component {
       .then(respuesta => {
         this.setState({
           products: respuesta.data,
-          cantidad: respuesta.meta.cuantity,
+          cantidad: respuesta.meta.quantity,
         });
       });
   }
