@@ -18,7 +18,17 @@ function GenresInDb() {
             </div>
             <div className="col-lg-6 mb-4">
               <div className="card bg-dark text-white shadow">
-                <div className="card-body">Heavy Metal</div>
+                <div className="card-body">Blues</div>
+              </div>
+            </div>
+            <div className="col-lg-6 mb-4">
+              <div className="card bg-dark text-white shadow">
+                <div className="card-body">Pop</div>
+              </div>
+            </div>
+            <div className="col-lg-6 mb-4">
+              <div className="card bg-dark text-white shadow">
+                <div className="card-body">Jazz</div>
               </div>
             </div>
             <div className="col-lg-6 mb-4">
@@ -28,37 +38,17 @@ function GenresInDb() {
             </div>
             <div className="col-lg-6 mb-4">
               <div className="card bg-dark text-white shadow">
-                <div className="card-body">Ciencia Ficción</div>
+                <div className="card-body">Rock Sinfónico</div>
               </div>
             </div>
             <div className="col-lg-6 mb-4">
               <div className="card bg-dark text-white shadow">
-                <div className="card-body">Comedia</div>
+                <div className="card-body">Heavy Metal</div>
               </div>
             </div>
             <div className="col-lg-6 mb-4">
               <div className="card bg-dark text-white shadow">
-                <div className="card-body">Documental</div>
-              </div>
-            </div>
-            <div className="col-lg-6 mb-4">
-              <div className="card bg-dark text-white shadow">
-                <div className="card-body">Drama</div>
-              </div>
-            </div>
-            <div className="col-lg-6 mb-4">
-              <div className="card bg-dark text-white shadow">
-                <div className="card-body">Fantasia</div>
-              </div>
-            </div>
-            <div className="col-lg-6 mb-4">
-              <div className="card bg-dark text-white shadow">
-                <div className="card-body">Infantiles</div>
-              </div>
-            </div>
-            <div className="col-lg-6 mb-4">
-              <div className="card bg-dark text-white shadow">
-                <div className="card-body">Musical</div>
+                <div className="card-body">Hard Rock</div>
               </div>
             </div>
           </div>
